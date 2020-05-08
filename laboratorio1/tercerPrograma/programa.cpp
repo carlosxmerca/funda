@@ -22,8 +22,8 @@ int main()
         cout << "No existen raices. (discriminante negativo)" <<  endl;
     }else{
         //proceso 
-        x1 = ( -(b) + sqrt(b*b - (4*a*c)) ) / 2*a;
-        x2 = ( -(b) - sqrt(b*b - (4*a*c)) ) / 2*a;
+        x1 = ( -(b) + sqrt(b*b - (4*a*c)) ) / (2*a);
+        x2 = ( -(b) - sqrt(b*b - (4*a*c)) ) / (2*a);
         //output
         cout << "Los valores son X1: " << x1 << " X2: " << x2 << endl;
     }
