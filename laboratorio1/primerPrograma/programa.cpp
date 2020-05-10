@@ -18,7 +18,7 @@ int main()
     cout << "Ingrese el tercer numero: " << endl;
     cin >> num3;
     //promedio
-    prom = (num1 + num2 + num3) / 3;
+    prom = (num1 + num2 + num3) / 3.0;
     cout << "El promedio es: " << prom << endl;
 
     return 0;
